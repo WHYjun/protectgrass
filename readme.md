@@ -12,6 +12,6 @@
 - <code>git clone https://github.com/sungkuk5420/protectgrass</code>
 - <code>cd protectgrass</code>
 - <code>git remote set-url origin https://<id>:<pw>@github.com/sungkuk5420/protectgrass</code>
-- <code>sudo vi /etc/crontab</code>
+- <code>sudo crontab -e</code>
 - <code>30 00 * * * root /home/ubuntu/app/protectgrass/protect.sh</code>
 
